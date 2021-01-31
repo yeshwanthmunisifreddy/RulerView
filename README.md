@@ -69,16 +69,37 @@ Step 2. Add the dependency
 
 2.1 Option 1
 
-    RulerView rulerview = findViewById(R.id.ruler);
+    var rulerview = findViewById(R.id.ruler);
    
     rulerview.initViewParam(78, 20, 180f, 1f);
-    rulerview.setChooseValueChangeListener(new RulerView.OnChooseResulterListener() {
-        @Override
-        public void onChooseValueChange(float value) {
-            // TODO do some work
+    rulerview.setChooseValueChangeListener {
+            Log.e("Choosen value", "$it")
         }
-    });
     
+2.2 Option 2
+
+    val rulerview = findViewById<RulerView>(R.id.ruler)
+        rulerview.setAlphaEnable(true)
+        rulerview.setDefaultSelectedValue(78f)
+        rulerview.setMinValue(50f)
+        rulerview.setMaxValue(100f)
+        rulerview.setIndicatorType(RulerView.LINE)
+        rulerview.setItemSpacing(10)
+        rulerview.setMaxLineColor(ContextCompat.getColor(this, R.color.knight_blue))
+        rulerview.setMaxLineHeight(39)
+        rulerview.setMaxLineWidth(3)
+        rulerview.setMiddleLineColor(Color.parseColor("#444444"))
+        rulerview.setMiddleLineHeight(18)
+        rulerview.setMiddleLineWidth(3)
+        rulerview.setMinLineColor(Color.parseColor("#444444"))
+        rulerview.setMinLineHeight(18)
+        rulerview.setMinLineWidth(3)
+        rulerview.setResultTextColor(Color.parseColor("#444444"))
+        rulerview.setResultTextSize(20)
+        rulerview.setScaleTextColor(ContextCompat.getColor(this, R.color.knight_blue))
+        rulerview.setScaleTextSize(24)
+
+
     
 
 
