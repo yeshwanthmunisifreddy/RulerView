@@ -69,13 +69,15 @@ Step 2. Add the dependency
 
 2.1 Option 1
 
-    var rulerview = findViewById(R.id.ruler);
+    val rulerview = findViewById<RulerView>(R.id.ruler)
    
     rulerview.initViewParam(78, 20, 180f, 1f);
-    rulerview.setChooseValueChangeListener {
-            Log.e("Choosen value", "$it")
-        }
-    
+        rulerview.setChooseValueChangeListener(object : RulerView.OnChooseResulterListener {
+            override fun onChooseValueChange(value: Float) {
+                Log.e("Choosen value", "$value")
+            }
+        })
+
 2.2 Option 2
 
     val rulerview = findViewById<RulerView>(R.id.ruler)
