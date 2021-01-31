@@ -3,7 +3,6 @@
 
 <img src="/RulerView.png" height="700" width = "300">
 
-
 Step 1. Add the JitPack repository to your build file
 
     Add it in your root build.gradle at the end of repositories:
@@ -130,10 +129,10 @@ Step 2. Add the dependency
         </attr>
 
 
-        <attr name="indcatorColor" format="color|reference" />
-        <attr name="indcatorWidth" format="dimension|reference" />
-        <attr name="indcatorHeight" format="dimension|reference" />
-        <attr name="indcatorType" format="enum|reference">
+        <attr name="indicatorColor" format="color|reference" />
+        <attr name="indicatorWidth" format="dimension|reference" />
+        <attr name="indicatorHeight" format="dimension|reference" />
+        <attr name="indicatorType" format="enum|reference">
             <enum name="line" value="1" />
             <enum name="triangle" value="2" />
         </attr>
