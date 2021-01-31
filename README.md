@@ -102,8 +102,7 @@ Step 2. Add the dependency
         rulerview.setScaleTextSize(24)
 
 
-    
-
+   Attributes
 
     <declare-styleable name="RulerView">
         <attr name="defaultSelectedValue" format="float|reference" />
