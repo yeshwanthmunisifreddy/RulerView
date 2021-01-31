@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RulerView">
+        <attr name="defaultSelectedValue" format="float|reference" />
+        <attr name="minValue" format="float|reference" />
+        <attr name="maxValue" format="float|reference" />
+        <attr name="spanValue" format="float|reference" />
+        <attr name="minSpanCount" format="float|reference" />
+        <attr name="itemSpacing" format="dimension|reference" />
+        <attr name="minLineHeight" format="dimension|reference" />
+        <attr name="maxLineHeight" format="dimension|reference" />
+        <attr name="middleLineHeight" format="dimension|reference" />
+        <attr name="minLineWidth" format="dimension|reference" />
+        <attr name="maxLineWidth" format="dimension|reference" />
+        <attr name="middleLineWidth" format="dimension|reference" />
+        <attr name="scaleTextColor" format="color|reference" />
+        <attr name="minLineColor" format="color|reference" />
+        <attr name="maxLineColor" format="color|reference" />
+        <attr name="middleLineColor" format="color|reference" />
+        <attr name="scaleTextSize" format="dimension|reference" />
+        <attr name="textMarginTop" format="dimension|reference" />
+        <attr name="strokeCap" format="enum|reference">
+            <enum name="round" value="1" />
+            <enum name="butt" value="0" />
+            <enum name="square" value="2" />
+        </attr>
+
+
+        <attr name="indicatorColor" format="color|reference" />
+        <attr name="indicatorWidth" format="dimension|reference" />
+        <attr name="indicatorHeight" format="dimension|reference" />
+        <attr name="indicatorType" format="enum|reference">
+            <enum name="line" value="1" />
+            <enum name="triangle" value="2" />
+        </attr>
+
+        <attr name="resultTextColor" format="color|reference" />
+        <attr name="unitTextColor" format="color|reference" />
+        <attr name="resultTextSize" format="dimension|reference" />
+        <attr name="unitTextSize" format="dimension|reference" />
+        <attr name="unit" format="string|reference" />
+        <attr name="showResult" format="boolean|reference" />
+        <attr name="showIndicator" format="boolean|reference" />
+        <attr name="showUnit" format="boolean|reference" />
+        <attr name="alphaEnable" format="boolean|reference" />
+    </declare-styleable>
+
+</resources>

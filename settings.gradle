@@ -1,2 +1,3 @@
+include ':Ruler'
 include ':app'
 rootProject.name = "RulerView"
