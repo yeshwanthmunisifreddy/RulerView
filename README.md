@@ -67,7 +67,7 @@ Step 2. Add the dependency
 
 2.java 
 
-2.1 Option 1
+   Option 1
 
     val rulerview = findViewById<RulerView>(R.id.ruler)
    
@@ -78,7 +78,7 @@ Step 2. Add the dependency
             }
         })
 
-2.2 Option 2
+   Option 2
 
     val rulerview = findViewById<RulerView>(R.id.ruler)
         rulerview.setAlphaEnable(true)
