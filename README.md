@@ -1,7 +1,7 @@
 # RulerView
 
 
-<img src="/RulerView.png" style="width: 30%;">
+<img src="/RulerView.png" style="height: 10%; ">
 
 
 Step 1. Add the JitPack repository to your build file
